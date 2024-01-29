@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.left-half {
+    background-color: #0775F4;
+    height: 915px;
+    width:  1068px;
+    color: white;
+    /* justify-content: flex-start; */
+    align-items: center;
+}
+/* 
+.ehr-logo {
+    height: 940px;
+    width: 394px;
+} */
+
+.logo{
+    background-color: white;
+    background-image: url("ehr_logo.png");
+    height: 94px;
+    width: 304px;
+    background-size: cover;
+    margin-left: 320px;
+    margin-top: 350px;
+}
+
+.ehr-name {
+    font-size: 1.8rem;
+    font-family: Segoe UI;
+    font-weight: 500;  
+    margin-left: 200px;  
+    margin-top: 15px;
+}
+
+.bar {
+    height: 18px;
+    width: 192px;
+}
+
+.bar-image {
+    height: 18px;
+    width: 192px;
+    background-image: url("bar.png");
+    background-size: cover;
+    margin-left: 465px;
+}
+
+/** Right-Half **/
+
+.right-half {
+    margin-right: 280px;
+}
+
+.upper-bar {
+    margin-top: 150px;
+}
+
+.patient {
+    font-size: 2rem;
+    font-family: Segoe UI;
+    margin: 5px;
+    border-radius: 10px;
+    border: 0.5px;
+    /* background-color: #0775F4; */
+}
+
+.sign-up {
+    font-family: Segoe UI;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    font-size: 2rem;
+    font-weight: -100;
+    color: #0775F4;
+    margin-left: 60px;
+}
+
+.form {
+    font-size: 5rem;
+    width: 50px;
+}
