@@ -1,140 +1,140 @@
 * {
-    margin : 0;
-    background-color: #EEEEEE;
+  margin: 0;
+  font-family: Arial;
+  border: border-box;
 }
 
 .nav-bar {
-    background-color: white;
-    height: 75px;
-    width: 90%;
-    margin-top: 19px;
-    margin-left: 90px;
-    margin-right: 40px;
-    color: black;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  background-color: white;
+  height: 75px;
+  color: black;
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .nav-logo {
-    height: 60px;
-    width: 180px;
+  height: 110px;
+  width: 160px;
 }
 
 .logo {
-    margin-left: 15px;
-    background-color: white;
-    background-image: url("ehr_logo.png");
-    background-size: cover;
-    height: 60px;
-    width: 100%;
+  background-image: url("ehr_logo.png");
+  background-size: cover;
+  height: 60px;
+  width: 100%;
 }
 
 .profile {
-    margin-right: 50px;
-    font-size: 30px;
-    background-color: white;
-    justify-content: end;
-    display: flex;
+  margin-right: 50px;
+  font-size: 30px;
+  background-color: white;
+  justify-content: end;
+  display: flex;
+  width: 130px;
+  height: 40px;
+  padding: 20px;
+  border: 2px solid #102242;
+  border-radius: 50%;
 }
 
 .profile-pic {
-    background-color: #0775F4;
-    margin-right: 10px;
-    border-radius: 100%;
+  margin-right: 10px;
 }
 
 /**Hero-Section1 **/
 
 .hero-top {
-    height: 683px;
-    width: 1650px;
-    background-color: white;
-    margin-left: 130px;
-    margin-top: 17px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  height: 683px;
+  width: 1650px;
+  background-color: white;
+  margin-left: 130px;
+  margin-top: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .hero-content {
-    color: black;
-    font-size: 70px;
-    background-color: white;
-    margin-left: 65px;
-    margin-top: 1px;
-    font-family: Segoe UI;
-    font-weight: 500;
+  color: black;
+  font-size: 70px;
+  background-color: white;
+  margin-left: 65px;
+  margin-top: 1px;
+  font-family: Segoe UI;
+  font-weight: 500;
 }
 
 .health-hub {
-    background-color: white;
-    font-size: 80px;
+  background-color: white;
+  font-size: 80px;
 }
 
 .hero-image {
-    height: 643px;
-    width: 781px;
+  height: 643px;
+  width: 781px;
 }
 
 .image-top {
-    background-image: url("Hero_top1.png");
-    background-color: white;
-    background-size: cover;
-    height: 643px;
-    width: 781px;
+  background-image: url("Hero_top1.png");
+  background-color: white;
+  background-size: cover;
+  height: 643px;
+  width: 781px;
 }
 
 .click-icon {
-    height: 70.52px;
-    width: 70.52px;
+  height: 70.52px;
+  width: 70.52px;
 }
 
 .mouse-icon {
-    background-image: url("Mouse_icon.png");
-    background-color: white;
-    background-size: cover;
-    height: 70.52px;
-    width: 100%;
-    margin-left: 460px;
-    margin-top: -65px;
+  background-image: url("Mouse_icon.png");
+  background-color: white;
+  background-size: cover;
+  height: 70.52px;
+  width: 100%;
+  margin-left: 460px;
+  margin-top: -65px;
 }
 
 /**Hero-Sction2 **/
 .hero-bottom {
-    height: 594px;
-    width: 1650px;
-    background-color: white;
-    margin-left: 130px;
-    /* margin-top: 17px; */
-    display: flex;
-    border-top: 0.5px solid #EEEEEE;
-    align-items: center;
-    justify-content: space-between;
+  height: 594px;
+  width: 1650px;
+  background-color: white;
+  margin-left: 130px;
+  /* margin-top: 17px; */
+  display: flex;
+  border-top: 0.5px solid #eeeeee;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .bottom-image {
-    height: 500px;
-    width: 700px;
+  height: 500px;
+  width: 700px;
 }
 
 .image-bottom {
-    background-image: url("Hero_bottom.png");
-    background-color: white;
-    background-size: cover;
-    height: 500px;
-    width: 100%;
-    margin-left: 40px;
+  background-image: url("Hero_bottom.png");
+  background-color: white;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  margin-left: 40px;
 }
 
 .bottom-content {
-    background-color: white;
-    color: black;
-    font-family: 'Segoe UI';
-    font-size: 65px;
-    font-weight: 500;
-    margin-right: 115px;
-    margin-top: 75px;
+  background-color: white;
+  color: black;
+  font-family: "Segoe UI";
+  font-size: 65px;
+  font-weight: 500;
+  margin-right: 115px;
+  margin-top: 75px;
 }
 
 /* .button-add {
@@ -142,75 +142,59 @@
 } */
 
 .button {
-    height:120px;
-    width: 700px;
-    background-color: #0775F4;
-    color: white;
-    font-size: 45px;
-    font-family: 'Segoe UI';
-    font-weight: 400;
-    margin-top: 30px;
-    padding: 0px;
-    border-radius: 15px;
+  background-color: #0775f4;
+  color: white;
+  font-size: 45px;
+  font-family: "Segoe UI";
+  font-weight: 400;
+  margin-top: 65px;
+  padding: 25px;
+  border-radius: 15px;
 }
 
 /** Footer **/
 
 .foot-panel {
-    background-color: #102242;
-    /* color: white; */
-    height: 400px;
-    width: 1750px;
-    margin-left: 90px;
-    margin-top: 84px;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.box-1 {
-    background-color: #102242;
-
+  background-color: #102242;
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 ul {
-    margin-top: 59px;
-    background-color: #102242;
+  margin-top: 20px;
 }
 
-ul p{
-    font-size: 32px;
+ul p {
+  color: whitesmoke;
+  font-size: large;
 }
-
-ul a{
-    display: block;
-    font-size: 0.85rem;
-    margin-top: 11px;
-    /* font: #C5C5C5; */
-    font-size: 22px;
+ul a {
+  display: block;
+  font-size: 0.75rem;
+  margin-top: 10px;
+  color: #dddddd;
 }
 
 .foot-logo {
-    height: 89px;
-    width: 300px;
+  height: 100px;
+  width: 300px;
 }
 
 .logo2 {
-    background-image: url("ehr_logo.png");
-    background-size: cover;
-    background-color: #ffffff;
-    height: 89px;
-    width: 280px;
+  background-image: url("ehr_logo.png");
+  background-size: cover;
+  background-color: #ffffff;
+  height: 89px;
+  width: 280px;
 }
 
-.social-media {
-    height: 91.56px;
-    width: 91.56px;
+/*.social-media {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-}
+}*/
 
-.fb-icon {
+/*.fb-icon {
     background-image: url("facebook.png");
     background-size: cover;
     background-color: #102242;
@@ -232,4 +216,4 @@ ul a{
     background-color: #102242;
     height: 91.56px;
     width: 90%;
-}
+}*/
