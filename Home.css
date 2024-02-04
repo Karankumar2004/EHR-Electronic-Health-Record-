@@ -1,29 +1,26 @@
 * {
   margin: 0;
+  font-family: Arial;
   border: border-box;
 }
 
 .nav-bar {
   background-color: white;
   height: 75px;
-  width: 90%;
-  margin-top: 19px;
-  margin-left: 90px;
-  margin-right: 40px;
   color: black;
   display: flex;
+  width: 100%;
+  margin-top: 50px;
   align-items: center;
   justify-content: space-between;
 }
 
 .nav-logo {
-  height: 60px;
-  width: 180px;
+  height: 110px;
+  width: 160px;
 }
 
 .logo {
-  margin-left: 15px;
-  background-color: white;
   background-image: url("ehr_logo.png");
   background-size: cover;
   height: 60px;
@@ -36,12 +33,15 @@
   background-color: white;
   justify-content: end;
   display: flex;
+  width: 130px;
+  height: 40px;
+  padding: 20px;
+  border: 2px solid #102242;
+  border-radius: 50%;
 }
 
 .profile-pic {
-  background-color: #0775f4;
   margin-right: 10px;
-  border-radius: 100%;
 }
 
 /**Hero-Section1 **/
@@ -142,15 +142,13 @@
 } */
 
 .button {
-  height: 120px;
-  width: 700px;
   background-color: #0775f4;
   color: white;
   font-size: 45px;
   font-family: "Segoe UI";
   font-weight: 400;
-  margin-top: 30px;
-  padding: 0px;
+  margin-top: 65px;
+  padding: 25px;
   border-radius: 15px;
 }
 
@@ -158,38 +156,28 @@
 
 .foot-panel {
   background-color: #102242;
-  /* color: white; */
-  height: 400px;
-  width: 1750px;
-  margin-left: 90px;
-  margin-top: 84px;
+  height: 200px;
   display: flex;
   justify-content: space-evenly;
 }
 
-.box-1 {
-  background-color: #102242;
-}
-
 ul {
-  margin-top: 59px;
-  background-color: #102242;
+  margin-top: 20px;
 }
 
 ul p {
-  font-size: 32px;
+  color: whitesmoke;
+  font-size: large;
 }
-
 ul a {
   display: block;
-  font-size: 0.85rem;
-  margin-top: 11px;
-  /* font: #C5C5C5; */
-  font-size: 22px;
+  font-size: 0.75rem;
+  margin-top: 10px;
+  color: #dddddd;
 }
 
 .foot-logo {
-  height: 89px;
+  height: 100px;
   width: 300px;
 }
 
@@ -201,34 +189,31 @@ ul a {
   width: 280px;
 }
 
-.social-media {
-  height: 91.56px;
-  width: 91.56px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+/*.social-media {
+    display: flex;
+    justify-content: space-between;
+}*/
 
-.fb-icon {
-  background-image: url("facebook.png");
-  background-size: cover;
-  background-color: #102242;
-  height: 91.56px;
-  width: 90%;
+/*.fb-icon {
+    background-image: url("facebook.png");
+    background-size: cover;
+    background-color: #102242;
+    height: 91.56px;
+    width: 90%;
 }
 
 .insta-icon {
-  background-image: url("instagram.png");
-  background-size: cover;
-  background-color: #102242;
-  height: 91.56px;
-  width: 90%;
+    background-image: url("instagram.png");
+    background-size: cover;
+    background-color: #102242;
+    height: 91.56px;
+    width: 90%;
 }
 
 .yt-icon {
-  background-image: url("youtube.png");
-  background-size: cover;
-  background-color: #102242;
-  height: 91.56px;
-  width: 90%;
-}
+    background-image: url("youtube.png");
+    background-size: cover;
+    background-color: #102242;
+    height: 91.56px;
+    width: 90%;
+}*/
